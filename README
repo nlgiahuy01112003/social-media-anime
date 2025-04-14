@@ -1,3 +1,7 @@
 cd backend
-npm init
+npm init -y
+npm install
+cd .. 
+cd frontend
+npm init -y
 npm install

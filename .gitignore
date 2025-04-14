@@ -1,0 +1,22 @@
+# Ignore environment files
+.env
+
+# Ignore package files
+package.json
+package-lock.json
+
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
