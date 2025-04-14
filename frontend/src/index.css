@@ -1,0 +1,53 @@
+/* frontend/src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Anime+Ace&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --anime-purple: #8b5cf6;
+  --anime-pink: #f472b6;
+  --anime-blue: #60a5fa;
+}
+
+body {
+  margin: 0;
+  font-family: 'Anime Ace', sans-serif;
+}
+
+.font-anime {
+  font-family: 'Anime Ace', sans-serif;
+}
+
+.bg-anime-gradient {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.shadow-anime-glow {
+  box-shadow: 0 0 15px rgba(139, 92, 246, 0.5);
+}
+
+.bg-anime-purple {
+  background-color: var(--anime-purple);
+}
+
+.bg-anime-pink {
+  background-color: var(--anime-pink);
+}
+
+.bg-anime-blue {
+  background-color: var(--anime-blue);
+}
+
+.border-anime-pink {
+  border-color: var(--anime-pink);
+}
+
+.border-anime-blue {
+  border-color: var(--anime-blue);
+}
+
+.text-anime-purple {
+  color: var(--anime-purple);
+}
